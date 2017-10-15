@@ -13,10 +13,11 @@
         <Label x:Name="redLabel" Content="R" HorizontalAlignment="Left" Margin="48,51,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.557"/>
         <Label x:Name="greenLabel" Content="G" HorizontalAlignment="Left" Margin="48,86,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.557"/>
         <Label x:Name="blueLabel" Content="B" HorizontalAlignment="Left" Margin="48,122,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,0.557"/>
-        <Button x:Name="saveButton" DockPanel.Dock="Left" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="21" Click="SaveButton_Click" Margin="396,97,0,0"/>
+        <Button x:Name="saveButton" DockPanel.Dock="Left" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="21" Click="SaveButton_Click" Margin="394,107,0,0"/>
         
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Width="120" Margin="371,59,0,0"/>
-        <Button x:Name="loadButton" Content="Load" HorizontalAlignment="Left" Margin="396,127,0,0" VerticalAlignment="Top" Width="75" Click="LoadButton_Click"/>
+        <TextBox x:Name="userNameSaveTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Width="120" Margin="372,72,0,0"/>
+        <Button x:Name="loadButton" Content="Load" HorizontalAlignment="Left" Margin="303,224,0,0" VerticalAlignment="Top" Width="75" Click="LoadButton_Click"/>
+        <TextBox x:Name="userNameLoadTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Width="120" Margin="154,224,0,0"/>
 
     </Grid>
 </Window>
